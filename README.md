@@ -4,6 +4,9 @@ Enter the Gungeon Dataset created using Labelbox
 ## Description
 This is a WIP dataset utilizing the popular 2016 video game "Enter the Gungeon". It currently contains a completely labelled dataset of a frist floor completion, using only the marine character and his base weapon.
 
+## Layout
+The provided file layout within this repository is under the 'COCO' dataset configuration, but any format can be generated through [third party websites](https://roboflow.com/convert/labelbox-json-to-coco-json) and the provided labelbox file. The labelbox file contains its own specific format, more documentation for which can be found on [labelboxes website](https://docs.labelbox.com/docs/import-annotations).
+
 ## Labels
 There are 29 labels, as follows
 ```
@@ -54,7 +57,7 @@ There are 29 labels, as follows
 - wall
 - water_pit
 ```
-The descriptions of these enemies can be found on the games wiki.
+The descriptions of these enemies can be found on the games [wiki](https://enterthegungeon.fandom.com/wiki/Cult_of_the_Gundead).
 
 ## Known Issues
 ### Underrepresented Classes
@@ -74,4 +77,9 @@ There is a noted lack of certain enemy types that can cause false negatives on a
 ```
 
 ### Similar Mis-Classifications
-There are also a number of enemies that hold extremely similar 
+There are also a number of enemies that hold a number of similar qualities, and as such can be difficult for models to properly identify. While effort was made to ensure they were not underrepresented within the dataset, they still remain some of the highest error rate labels. More label points are needed to rectify this issue. This issue has occurred on the following labels:
+```
+- red_shotgun_kin <-> blue_shotgun_kin
+- veteran_bullet_kin <-> bullet_kin
+- all dead variations of enemies with their living counterparts
+```
