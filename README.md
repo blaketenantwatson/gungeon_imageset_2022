@@ -83,3 +83,6 @@ There are also a number of enemies that hold a number of similar qualities, and 
 - veteran_bullet_kin <-> bullet_kin
 - all dead variations of enemies with their living counterparts
 ```
+
+## Future Plans
+For the time being, the only planned expansion to this dataset is the addition of every possible first floor boss. A full dataset for the entirety of the game may be considered at a later point.
