@@ -2,7 +2,7 @@
 Enter the Gungeon Dataset created using Labelbox
 
 ## Description
-This is a WIP dataset utilizing the popular 2016 video game "[Enter the Gungeon](https://store.steampowered.com/app/311690/Enter_the_Gungeon/)". It currently contains a completely labelled dataset of a frist floor completion, using only the marine character and his base weapon.
+This is a WIP dataset utilizing the popular 2016 video game "[Enter the Gungeon](https://store.steampowered.com/app/311690/Enter_the_Gungeon/)". It currently contains a completely labelled dataset of a frist floor completion, using only the [Marine](https://enterthegungeon.fandom.com/wiki/The_Marine) character and his [base weapon](https://enterthegungeon.fandom.com/wiki/Marine_Sidearm).
 
 ## Layout
 The provided file layout within this repository is under the 'COCO' dataset configuration, but any format can be generated through [third party websites](https://roboflow.com/convert/labelbox-json-to-coco-json) and the provided labelbox file. The labelbox file contains its own specific format, more documentation for which can be found on [labelboxes website](https://docs.labelbox.com/docs/import-annotations).
