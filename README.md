@@ -1,7 +1,7 @@
 # gungeon_imageset_2022
 Enter the Gungeon Dataset created using Labelbox
 
-# Description
+## Description
 This is a WIP dataset utilizing the popular 2016 video game "Enter the Gungeon". It currently contains a completely labelled dataset of a frist floor completion, using only the marine character and his base weapon.
 
 ## Labels
